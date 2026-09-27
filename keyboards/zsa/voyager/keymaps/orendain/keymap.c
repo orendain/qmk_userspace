@@ -94,6 +94,17 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     }
 }
 
+uint16_t get_quick_tap_term(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case LT(3, KC_ENTER):
+            return 0;
+        case LT(3, KC_KP_ENTER):
+            return 0;
+        default:
+            return QUICK_TAP_TERM;
+    }
+}
+
 
 extern rgb_config_t rgb_matrix_config;
 
