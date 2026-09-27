@@ -1,4 +1,4 @@
-#define FLOW_TAP_TERM 150
+#define FLOW_TAP_TERM 80
 #define CHORDAL_HOLD
 #undef TAPPING_TERM
 #define TAPPING_TERM 250
@@ -9,7 +9,7 @@
 #undef MOUSEKEY_TIME_TO_MAX
 #define MOUSEKEY_TIME_TO_MAX 30
 
-#define SERIAL_NUMBER "0N356/qmQwxA"
+#define SERIAL_NUMBER "QmRjD/6aMdLB"
 #define LAYER_STATE_8BIT
 
 #define TAPPING_TERM_PER_KEY
